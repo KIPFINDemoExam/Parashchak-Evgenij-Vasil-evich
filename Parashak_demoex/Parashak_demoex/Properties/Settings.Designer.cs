@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Test.Properties {
+namespace Parashak_demoex.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,10 +26,10 @@ namespace Test.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-R0P0EBE\\MSSQLSRV;User ID=parashchak")]
-        public string ConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-R0P0EBE\\MSSQLSRV;Initial Catalog=Parashak;User ID=parashchak")]
+        public string ParashakConnectionString {
             get {
-                return ((string)(this["ConnectionString"]));
+                return ((string)(this["ParashakConnectionString"]));
             }
         }
     }
