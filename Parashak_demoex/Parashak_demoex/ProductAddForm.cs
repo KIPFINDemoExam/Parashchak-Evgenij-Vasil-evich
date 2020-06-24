@@ -27,8 +27,8 @@ namespace Parashak_demoex
 		{
 			// TODO: данная строка кода позволяет загрузить данные в таблицу "parashakDataSet1.ProductSale". При необходимости она может быть перемещена или удалена.
 			this.productSaleTableAdapter.Fill(this.parashakDataSet1.ProductSale);
-			SqlConnection con = ("Data Source=DESKTOP-R0P0EBE\MSSQLSRV;Initial Catalog=Parashak;User ID=parashchak;Password=***********");
-			SqlCommand command=()
+			//SqlConnection con = ("Data Source=DESKTOP-R0P0EBE\MSSQLSRV;Initial Catalog=Parashak;User ID=parashchak;Password=***********");
+			//SqlCommand command=()
 		}
 	}
 }

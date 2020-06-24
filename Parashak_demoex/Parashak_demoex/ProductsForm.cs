@@ -13,15 +13,23 @@ namespace Parashak_demoex
 {
 	public partial class ProductsForm : Form
 	{
+		private int count=0;
+
 		public ProductsForm()
 		{
 			InitializeComponent();
+			int count=0;
 		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
+			count++;
 			GroupBox groupBox = new GroupBox();
-			groupBox.CreateControl()
+			groupBox.Name = "groupBox" + count;
+			CreateParams createParams= new CreateParams();
+			groupBox.Parent = groupBox1;
+			groupBox.Show();
+
 
 		}
 	}
