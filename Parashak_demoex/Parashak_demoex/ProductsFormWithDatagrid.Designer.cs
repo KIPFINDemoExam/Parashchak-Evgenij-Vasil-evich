@@ -1,4 +1,4 @@
-﻿namespace Test
+﻿namespace Parashak_demoex
 {
 	partial class Form1
 	{
